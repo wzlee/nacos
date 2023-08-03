@@ -319,7 +319,7 @@ class HistoryRollback extends React.Component {
     const { init } = this.field;
     this.init = init;
     return (
-      <div>
+      <div style={{ padding: 10 }}>
         <Loading
           shape="flower"
           style={{ position: 'relative', width: '100%' }}
